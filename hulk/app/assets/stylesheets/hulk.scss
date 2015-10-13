@@ -4,3 +4,56 @@
     font-family: 'Audiowide', cursive;
 	font-size: 18pt;
 }
+
+#content {
+	padding: 0.5em;
+
+	#content1,
+	#content2,
+	#content3,
+	#content4 {
+		padding: 0;
+	   	font-weight: bold;
+		border: solid 1px #FFFFFF;
+
+		h3 { 
+			text-align: center;
+		}
+
+		p {
+			text-align: justify;
+			padding: 0 0.5em;
+
+		}
+	}
+
+	#content1 {
+		background-color: #C8A100;
+		color: #DFB400;
+	}
+	
+	#content2 {
+		background-color: #0066CC;
+		color: #0070E3;
+	}
+	
+	#content3 {
+		background-color: #A4254F;
+		color: #C22D5E;
+	}
+	#content4 {
+		background-color: #32A20D;
+		color: #3BBE0F;
+	}
+
+
+
+}
+
+/*
+orange bg = #c8a100 text = dfb400
+blue bg = #0066cc text = #0070e3
+pink bg = #A4254f text = #c22d5e
+green bg = #32a20d text = #3bbe0f
+
+*/
