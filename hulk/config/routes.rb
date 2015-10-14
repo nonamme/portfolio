@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :projects
   get 'hulk/index'
 
   get 'hulk/projects'
