@@ -1,0 +1,13 @@
+<% @projects.each do |p| %>
+		<div class='col-lg-3'>
+			<figure>	
+				<%= image_tag p.image, alt: p.title, class: 'img-responsive' %>	
+					<figcaption>
+						<p class='title'><%= p.title %></p>
+						<p class='date'><%= p.date %></p>
+						<p class='technology'><%= p.technology %></p>
+						<%= link_to 'GitHub', p.github %>
+					</figcaption>
+			</figure>
+		</div>
+<% end %>
