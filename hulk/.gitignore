@@ -15,3 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore all images files and fonts 
+/app/assets/images
+/app/assets/fonts
