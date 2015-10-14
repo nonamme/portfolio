@@ -19,3 +19,7 @@
 # Ignore all images files and fonts 
 /app/assets/images
 /app/assets/fonts
+
+# Ignore all of ~ and .swp files
+*~
+*.swp
