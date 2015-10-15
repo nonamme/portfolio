@@ -1,6 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
 
 #brand {
-	font-family: 'Audiowide', cursive;
-	font-size: 18pt;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 32pt;
+	color: #0066CC;
+}
+
+#brand::first-letter {
+	color: #A4254F;
 }
