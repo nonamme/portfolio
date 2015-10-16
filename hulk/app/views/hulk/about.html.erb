@@ -1,2 +1,47 @@
-<h1>Hulk#about</h1>
-<p>Find me in app/views/hulk/about.html.erb</p>
+<div id='canvas-wrapper' class='col-lg-12'>
+	<canvas id='mySkills'></canvas>
+</div>
+<script type="text/javascript">
+var mySkills = document.getElementById('mySkills').getContext('2d');
+
+var data = [
+	{
+		value: 300,
+		color: "#F7464A",
+		highlight: "#FF525E",
+		label: "HTML5"
+	},
+
+	{
+		value: 300,
+		color: "#00FF00",
+		highlight: "#55FF11",
+		label: "CSS3"
+	},
+
+	{
+		value: 500,
+		color: "#FF0000",
+		highlight: "#FF5555",
+		label: "RUBY"
+	},
+
+	{
+		value: 400,
+		color: "#0000FF",
+		highlight: "#5500FF",
+		label: "JavaScript"
+	}
+]
+
+new Chart(mySkills).Pie(data, {
+		    segmentShowStroke : true,
+			segmentStrokeColor : "#fff",
+		    segmentStrokeWidth : 2,
+		    percentageInnerCutout : 50,
+		    animationSteps : 100,
+		    animationEasing : "easeOutBounce",
+		    animateRotate : true,
+		    animateScale : false
+		});
+</script>
