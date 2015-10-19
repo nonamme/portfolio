@@ -1,13 +1,16 @@
 #content {
 	padding: 0.5em;
 
-	#content1,
-	#content2,
-	#content3,
-	#content4 {
-		padding: 0 50px ;
+	#content1 > div,
+	#content2 > div,
+	#content3 > div,
+	#content4 > div {
+		padding: 0 50px;
+		margin: 5px 0px;
 	   	font-weight: bold;
-		border: solid 1px #FFFFFF;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 
 		h3 { 
 			text-align: center;
@@ -20,22 +23,23 @@
 		}
 	}
 
-	#content1 {
-		background-color: #C8A100;
+	#content1 > div {
+		/* background-color: #C8A100;*/
+		border: 1px solid #C8A100;
 		color: #DFBF00;
 	}
 	
-	#content2 {
-		background-color: #0066CC;
+	#content2 > div {
+		border: 1px solid #0066CC;
 		color: #0080FF;
 	}
 	
-	#content3 {
-		background-color: #A4254F;
+	#content3 > div {
+		border: 1px solid #A4254F;
 		color: #C22D5E;
 	}
-	#content4 {
-		background-color: #32A20D;
+	#content4 > div {
+		border: 1px solid #32A20D;
 		color: #3BBE0F;
 	}
 }
